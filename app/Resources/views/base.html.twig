@@ -8,7 +8,7 @@
     </head>
     <body>
     <h1>School Register</h1>
-    + {% block login_logout_panel %}
+     {% block login_logout_panel %}
          <ul>
              <li>
                  <a href="{{ path('homepage') }}">
@@ -30,7 +30,7 @@
                      </li>
                  {% endif %}
              </ul>
-        + {% endblock login_logout_panel %}
+         {% endblock login_logout_panel %}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
